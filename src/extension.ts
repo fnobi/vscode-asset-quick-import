@@ -10,7 +10,7 @@ const PATTERN = /\.(png|jpe?g|gif|mp3|wav)$/;
 
 export function activate(context: vscode.ExtensionContext) {
 
-	let disposable = vscode.commands.registerCommand('extension.helloWorld', () => {
+	let disposable = vscode.commands.registerCommand('extension.assetquickimport', () => {
 		const editor = vscode.window.activeTextEditor;
 		if (!editor) {
 			vscode.window.showErrorMessage("Error: active editor is not found.");
