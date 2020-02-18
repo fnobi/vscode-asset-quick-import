@@ -12,6 +12,8 @@
 	"activationEvents": [
 		"onCommand:extension.assetquickimport"
 	],
+	"publisher": "fnobi",
+	"repository": "https://github.com/fnobi/vscode-asset-quick-import",
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
