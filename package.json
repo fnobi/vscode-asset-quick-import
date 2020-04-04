@@ -2,7 +2,7 @@
 	"name": "assetquickimport",
 	"displayName": "AssetQuickImport",
 	"description": "quick pick asset path & insert import statement.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.42.0"
 	},
