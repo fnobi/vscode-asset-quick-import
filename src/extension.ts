@@ -6,7 +6,7 @@ import * as path from "path";
 const SRC_PATH = "src";
 const SRC_PREFIX = "~/";
 const ASSET_PREFIX = "ASSETS_";
-const PATTERN = /\.(png|jpe?g|gif|mp3|wav)$/;
+const PATTERN = /\.(png|jpe?g|gif|svg|mp3|ogg|wav|mp4|webm)$/;
 
 export function activate(context: vscode.ExtensionContext) {
 
